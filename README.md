@@ -1,16 +1,33 @@
+
 # TP Flutter Tag [FINISH]
+![Logo](https://storage.googleapis.com/cms-storage-bucket/6a07d8a62f4308d2b854.svg)
 
-A new Flutter project.
+## L’application à développer :
 
-## Getting Started
+Voici l’application que vous serez amené à développer lors de ce TP.
+L’objectif est de réaliser un simple écran permettant de sélectionner des choix parmi une
+liste proposée.
 
-This project is a starting point for a Flutter application.
+![ezgif-3-6159e4e12e](https://user-images.githubusercontent.com/60140328/166329814-c251315e-5dbf-4dcb-a310-9f0809b303fd.gif)
 
-A few resources to get you started if this is your first Flutter project:
+Ces choix apparaissent alors en haut dans votre liste de choix sélectionnés.
+Attention, les choix positionnés en haut ne sont pas cliquables ! Ils ne le sont qu’en bas.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Règles du jeu :
+Il vous est imposé de séparer vos widgets de la manière suivante, pour plus de
+maintenabilité :
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Avec :
+- main.dart : Votre Home composée du Header et du Footer
+
+- header.dart : Le Header violet de votre application, affichant la liste des choix sélectionnés
+
+- footer.dart : Le Footer de votre application, affichant la liste des choix sélectionnables
+
+- choice_item.dart : Le widget représentatif d’un choix
+## Notation :
+
+- 6 points seront accordés au rendu de l’application (son fonctionnement)
+- 14 points seront accordés au code : respect de l’architecture imposée, utilisation des widgets, indentation, qualité du codee, communication entre les widgets.
+- 8 points sur la gestion du layouting (ça ne se dit sûrement pas, mais vous avez compris : l’utilisation des bons widgets pour rendre l’affichage comme demandé)
+- 6 points sur la gestion de la communication entre les widgets
