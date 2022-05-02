@@ -1,6 +1,6 @@
 
 # TP Flutter Tag [FINISH]
-[![Logo](https://storage.googleapis.com/cms-storage-bucket/6a07d8a62f4308d2b854.svg](https://flutter.dev/)
+[![Logo](https://storage.googleapis.com/cms-storage-bucket/6a07d8a62f4308d2b854.svg)](https://flutter.dev/)
 
 ## L’application à développer :
 
